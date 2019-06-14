@@ -1,0 +1,65 @@
+<?php
+$config = (object)[
+    'SONG_LIST' => dirname(__FILE__).'/../_info/songList.json',
+    'DB_PATH' => dirname(__FILE__).'/../_info/dmtq.db3',
+    'API_PATH' => 'http://dmqglb.mb.pmang.com/DMQ/rpc',
+    'FILE_DOWNLOAD_PATH' => 'http://dmqglb.mb.pmang.com/patch',
+	'OLD_PATCH_ID' => '1.000.030',//1.0.17
+	'PATCH_ID' => '1.003.005',
+	
+	
+	
+	//'FILE_DOWNLOAD_PATH' => 'http://d7oyvffymxdlz.cloudfront.net/dmqglb/patch',
+	//'OLD_PATCH_ID' => '5',
+	//'PATCH_ID' => '5',
+	
+	
+    'EVENT_PATH' => 'http://dmqglb.mb.pmang.com/score/',
+    'SECRET_KEY' => 'DMQGLBlive1',
+    'PATTERN_PATH' => 'http://dmqglb.mb.pmang.com/DMQ/Patterns/',
+    'SONG_PATH' => 'http://dmqglb.mb.pmang.com/DMQ/Songs/',
+    'HOW_TO_PLAY_POPUP' => 'Y',
+    'HOW_TO_PLAY_PAGE1' => 'http://dmqglb.mb.pmang.com/static/dmq/banner/180802_tuto2_package/howtoplay_play.png',
+    'HOW_TO_PLAY_PAGE2' => 'http://dmqglb.mb.pmang.com/static/dmq/banner/180802_tuto2_package/howtoplay_note.png',
+    'TSTOP_URL' => 'http://dmqglb.mb.pmang.com/static/dmq/banner/180716_mucasummer/180716_tstop_summer.png',
+    'TWC_URL' => 'http://dmqglb.mb.pmang.com/static/dmq/banner/180716_mucasummer/180716_twc_summer.png',
+    'GAME_SUGGEST_POPUP' => 'N',
+    'PRODUCT_LIST' => [
+        30001,
+        30002,
+        30003,
+        30004,
+        30005,
+        30006,
+        30007,
+        30008,
+        30009,
+        30010,
+        30011,
+        30012,
+        30013,
+        30014,
+        30015,
+        30016,
+        30017,
+        30018,
+        30019,
+        30020,
+        40001,
+        40002,
+        90001,
+        90002,
+        90003,
+        90004,
+        90005,
+        90006,
+        90007,
+        90008,
+        90009,
+        100001,
+        100002,
+        100003,
+        100004,
+        100005
+    ]
+];
